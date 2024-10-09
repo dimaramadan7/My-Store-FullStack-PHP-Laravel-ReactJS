@@ -1,0 +1,15 @@
+API:
+
+// not auth
+1) Register - POST
+2) Login - PUT
+3) Get Products - GET (adding: filter: name - category)
+// TODO in Real Apps: Get Product - GET - (By ID)
+4) Get Categories - GET
+
+// auth
+1) Create Order - POST
+2) User Details - GET
+3) Orders - GET
+4) Modify Order - PUT 
+5) Logout - PUT

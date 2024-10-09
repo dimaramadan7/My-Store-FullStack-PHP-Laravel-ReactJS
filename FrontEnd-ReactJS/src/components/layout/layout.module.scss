@@ -1,0 +1,36 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+
+    .appbar {
+        width: 100%;
+    }
+
+    .page {
+        flex: 1 0 0;
+        width: 80%;
+        margin: 2rem;
+    
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .Button {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+    }
+}
+
+.side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
